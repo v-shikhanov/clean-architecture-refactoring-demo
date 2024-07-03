@@ -1,7 +1,7 @@
 package com.clean_architecture.demo.print.infrastructure.in;
 
-import com.clean_architecture.demo.dto.DocumentBase64Dto;
 import com.clean_architecture.demo.print.application.port.in.PrintContractInPort;
+import com.clean_architecture.demo.print.infrastructure.in.dto.DocumentBase64Dto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
