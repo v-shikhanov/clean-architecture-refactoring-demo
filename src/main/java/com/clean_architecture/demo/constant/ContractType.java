@@ -10,7 +10,8 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum ContractType {
 
-    INTERNET_STORE_CONTRACT("internet_store_contract")
+    INTERNET_STORE_CONTRACT("internet_store_contract"),
+    COURIER("courier_contract")
 
     // Прочие типы договоров
     ;
